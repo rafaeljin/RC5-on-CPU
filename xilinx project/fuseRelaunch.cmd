@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Rafael Jin/ownCloud/NYU_2016_2018/EL/Advanced_Hardware_ Design/labs_assignments/final_project/single_cycle_cpu/CPU_isim_beh.exe" -prj "C:/Users/Rafael Jin/ownCloud/NYU_2016_2018/EL/Advanced_Hardware_ Design/labs_assignments/final_project/single_cycle_cpu/CPU_beh.prj" "work.CPU" 

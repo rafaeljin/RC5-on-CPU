@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Rafael Jin/ownCloud/NYU_2016_2018/EL/Advanced_Hardware_ Design/labs_assignments/final_project/single_cycle_cpu/CPU_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cpu" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_unsigned" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="25" />
+   <wvobject fp_name="/cpu/opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/funccode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">funccode[2:0]</obj_property>
+      <obj_property name="ObjectShortName">funccode[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/aluop" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluop[2:0]</obj_property>
+      <obj_property name="ObjectShortName">aluop[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/memtoreg" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memtoreg</obj_property>
+      <obj_property name="ObjectShortName">memtoreg</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/memwrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">memwrite</obj_property>
+      <obj_property name="ObjectShortName">memwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/isbranch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">isbranch</obj_property>
+      <obj_property name="ObjectShortName">isbranch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/alusrc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alusrc</obj_property>
+      <obj_property name="ObjectShortName">alusrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/regwrt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">regwrt</obj_property>
+      <obj_property name="ObjectShortName">regwrt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/takebranch" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">takebranch</obj_property>
+      <obj_property name="ObjectShortName">takebranch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/pcplus4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pcplus4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcplus4[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/nextpc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">nextpc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nextpc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/rs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rs[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/rt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rt[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/rd" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rd[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/rfwriteregister" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rfwriteregister[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rfwriteregister[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/rfwrite" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rfwrite[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rfwrite[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/aluresult" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluresult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluresult[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/imm32" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">imm32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">imm32[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/rfwrite" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rfwrite[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rfwrite[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/rfread1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rfread1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rfread1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/rfread2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rfread2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rfread2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/dmresult" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmresult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmresult[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu/inst" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inst[31:0]</obj_property>
+      <obj_property name="ObjectShortName">inst[31:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>
